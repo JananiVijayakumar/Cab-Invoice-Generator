@@ -32,4 +32,6 @@ public class InVoiceSummary {
     public int hashCode() {
         return Objects.hash(numberOfRides, totalFare, avgFare);
     }
+
+
 }
