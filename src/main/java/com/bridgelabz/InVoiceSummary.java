@@ -10,7 +10,7 @@ public class InVoiceSummary {
     public InVoiceSummary() {
     }
 
-    public InVoiceSummary(int numberOfRides, double totalFare) {
+    public InVoiceSummary(int numberOfRides, double totalFare, String rideType) {
         this.numberOfRides = numberOfRides;
         this.totalFare = totalFare;
     }
